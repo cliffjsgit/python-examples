@@ -5,16 +5,16 @@
 import openpyxl
 # Open the spreadsheet
 wb = openpyxl.load_workbook('PythonTest.xlsx')
-# Print the sheet manes in the spreadsheet
-print(wb.get_sheet_names())
+# Print the sheet names in the spreadsheet
+print(wb.sheetnames)
 # Assign the 3rd sheet (by name) to an object
-sheet = wb.get_sheet_by_name('Sheet3')
+sheet =  wb['Sheet3']
 print(sheet)
 print(sheet.title)
 
 # Create a new spreadsheet
 # Assign the first sheet by name to an object
-sheet = wb.get_sheet_by_name('Sheet1')
+sheet = wb['Sheet1']
 # Display the sheet information
 print('Sheet A1 =  ', sheet['A1'])
 # Display the value in cell A1
