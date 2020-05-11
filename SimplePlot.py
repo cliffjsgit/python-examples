@@ -1,3 +1,5 @@
+# Matplotlib plotting library: https://matplotlib.org/
+# Matplotlib User's Guide: https://matplotlib.org/users/index.html
 import matplotlib
 import matplotlib.pyplot as plt
 
@@ -7,7 +9,8 @@ import numpy as np
 
 # Matplotlib is a plotting library. It relies on some backend to actually
 # render the plots. The default backend is the agg backend,
-# which only renders PNGs.
+# which only renders PNGs. Comment out the next line, to only display the plot.
+
 matplotlib.use("Agg")            # Use Agg backend to only renders PNG files
 
 # Data for plotting
