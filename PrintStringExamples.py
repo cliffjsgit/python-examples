@@ -22,7 +22,7 @@ print("There are " + str(population) + " " + animals + " in " + city + ".")
 # quickly become much less readable. 
 
 print()
-print('3. String substitution operator(%) example:')
+print('2. String substitution operator(%) example:')
 print('There are %s %s in %s.'%(population, animals, city))
 
 
@@ -33,7 +33,7 @@ print('There are %s %s in %s.'%(population, animals, city))
 # and multiple use of the same data. 
 
 print()
-print('2. Using str.format() method example:')
+print('3. Using str.format() method example:')
 print('There are {}, {}, {}.'.format(population, animals, city))
 print('In {2}, there are {0} {1}.'.format(population, animals, city))
       
